@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "outDir": "./build/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "target": "ES5"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "./src/**/*"
+    ]
+}
