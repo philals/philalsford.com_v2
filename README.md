@@ -13,3 +13,7 @@ npm run build
 ```
 
 Output site will be in ./build
+
+Credit:
+https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+https://www.jonathan-petitcolas.com/2015/05/15/howto-setup-webpack-on-es6-react-application-with-sass.html
