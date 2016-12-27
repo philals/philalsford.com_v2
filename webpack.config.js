@@ -1,7 +1,7 @@
 var path = require("path");
 var CopyWebpackPlugin = require("copy-webpack-plugin");
 
-module.exports = {
+var config = {
     entry: "./src/index.tsx",
     /*
      * The combination of path and filename tells Webpack what name to give to
@@ -51,3 +51,5 @@ module.exports = {
         "react-dom": "ReactDOM"
     },
 };
+
+module.exports = config;
