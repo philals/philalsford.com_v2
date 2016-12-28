@@ -2,7 +2,7 @@
   "name": "philalsford.com_v2",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --watch",
     "serve": "webpack-dev-server --content-base build/"
   },
   "dependencies": {
