@@ -39,6 +39,7 @@ var config = {
     plugins: [
         new CopyWebpackPlugin([
             { from: "src/index.html", to: "./index.html" },
+            { from: "src/static", to: "./static" },
         ])
     ],
 
