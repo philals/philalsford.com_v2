@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { HelloContainer } from "./components/HelloContainer";
+import { SiteContainer } from "./components/SiteContainer";
 
 ReactDOM.render(
-    <HelloContainer />,
+    <SiteContainer />,
     document.getElementById("app")
 );
