@@ -1,5 +1,6 @@
 import * as React from "react";
 
+require("./site.scss");
 
 import ContentComponent from "./ContentComponent/ContentComponent";
 
