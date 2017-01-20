@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --watch",
-    "serve": "webpack-dev-server --content-base build/"
+    "serve": "webpack-dev-server --inline --content-base build/"
   },
   "dependencies": {
     "@types/react": "^0.14.55",
